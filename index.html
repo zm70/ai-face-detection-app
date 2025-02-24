@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Face Detection Web App</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  
+  <div class="face-detection-section">
+    <h1>Face Detection</h1>
+      <div class="auther">
+          <a href="https://github.com/zm70" target="_blank">Developed by Zohreh Moradi</a>
+      </div>
+     
+      <div class="video-container">
+        <video id="video" autoplay muted playsinline></video>
+        <canvas id="overlay"></canvas>
+      </div>
+
+      <div id="matchResult"></div>
+      <div id="notMatchResult"></div>
+
+      <button id="retry" style="display: none;">Retry</button>
+  </div>
+
+</body>
+</html>
