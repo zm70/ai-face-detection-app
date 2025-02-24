@@ -24,7 +24,7 @@ async function loadUsers() {
     users = data;
     console.log('Users loaded:', users);
   } catch (error) {
-    console.error('Error loading users.json:', error);
+    console.error('Error loading usersList.json:', error);
   }
 }
 
